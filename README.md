@@ -1,8 +1,8 @@
 # Mobile UI/UX Instructions
 
-A Codex skill pack for planning, building, and reviewing production-grade mobile UI/UX work.
+A portable skill set for planning, building, and reviewing production-grade mobile UI/UX work.
 
-This repository is structured for publication as a skill repository. It provides focused mobile UX skills under `.agents/skills` and reusable planning/review artifacts under `docs/uiux`.
+This repository is structured for installation through [skills.sh](https://skills.sh/). It provides focused mobile UX skills under `.agents/skills` and reusable planning/review artifacts under `docs/uiux`.
 
 ## What this pack covers
 
@@ -41,7 +41,7 @@ This repository is structured for publication as a skill repository. It provides
 
 Each skill folder contains:
 
-- `SKILL.md`: required agent-facing workflow and trigger instructions.
+- `SKILL.md`: required workflow and trigger instructions.
 - `agents/openai.yaml`: UI metadata for skill listings and default prompts.
 
 ## Skills
@@ -62,7 +62,13 @@ Each skill folder contains:
 
 ## Usage
 
-Invoke a skill explicitly in Codex with `$skill-name`.
+Install the skill set with the skills CLI:
+
+```bash
+npx skills add thanhnh98/mobile-uiux-instructions
+```
+
+After installation, invoke a skill explicitly with `$skill-name`, or let a compatible agent select the relevant skill from the task context.
 
 Examples:
 
@@ -92,12 +98,11 @@ Start with [docs/uiux/README.md](docs/uiux/README.md) for the documentation work
 
 ## Publish checklist
 
-Before publishing this repository to a skill directory or marketplace:
+Before publishing or updating this repository on skills.sh:
 
 - Confirm every skill has a valid `.agents/skills/<name>/SKILL.md`.
-- Keep each `SKILL.md` concise and agent-facing.
+- Keep each `SKILL.md` concise and task-facing.
 - Keep user/team documentation outside individual skill folders.
 - Confirm each skill has `agents/openai.yaml` metadata.
 - Avoid generated build artifacts, dependency folders, or private project files.
 - Run `git status --short` and review all changed files before publishing.
-

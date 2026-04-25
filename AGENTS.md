@@ -1,6 +1,6 @@
 # Mobile UI/UX Engineering Instructions
 
-Codex should treat mobile UI work as production product work, not visual decoration. For every mobile feature, reason from the user goal, business goal, hierarchy, state coverage, navigation path, accessibility, and implementation feasibility before coding.
+Treat mobile UI work as production product work, not visual decoration. For every mobile feature, reason from the user goal, business goal, hierarchy, state coverage, navigation path, accessibility, and implementation feasibility before coding.
 
 Keep screen files thin. Split reusable UI into focused components, keep state orchestration close to the screen or feature boundary, and keep business logic out of presentation-only components.
 

@@ -1,6 +1,6 @@
 # Plan Prompt Template
 
-Use this prompt with Codex before building a mobile feature.
+Use this prompt before building a mobile feature.
 
 ```text
 Use the mobile-feature-planning, mobile-state-model, mobile-navigation-stack, mobile-permission-notification, mobile-accessibility, mobile-adaptive-layout, mobile-performance-ux, and mobile-engineering-handoff skills.

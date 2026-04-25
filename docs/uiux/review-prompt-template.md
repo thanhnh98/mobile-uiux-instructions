@@ -1,6 +1,6 @@
 # Review Prompt Template
 
-Use this prompt with Codex to review or refactor an existing mobile feature.
+Use this prompt to review or refactor an existing mobile feature.
 
 ```text
 Use the mobile-production-review, mobile-state-model, mobile-navigation-stack, mobile-permission-notification, mobile-accessibility, mobile-adaptive-layout, mobile-performance-ux, and mobile-engineering-handoff skills.

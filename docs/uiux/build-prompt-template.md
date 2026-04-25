@@ -1,6 +1,6 @@
 # Build Prompt Template
 
-Use this prompt with Codex when implementing a planned mobile feature.
+Use this prompt when implementing a planned mobile feature.
 
 ```text
 Use the mobile-screen-uiux, mobile-layout-structure, mobile-state-model, mobile-navigation-stack, mobile-accessibility, mobile-adaptive-layout, mobile-performance-ux, and mobile-engineering-handoff skills.

@@ -1,6 +1,6 @@
 # Mobile UI/UX Instruction System
 
-This directory contains reusable templates and checklists for planning, building, and reviewing production mobile UI/UX work with Codex.
+This directory contains reusable templates and checklists for planning, building, and reviewing production mobile UI/UX work with an AI coding assistant.
 
 `AGENTS.md` sets repository-wide behavior: mobile-first reasoning, complete state coverage, native platform behavior, accessibility, and implementation-ready structure.
 
