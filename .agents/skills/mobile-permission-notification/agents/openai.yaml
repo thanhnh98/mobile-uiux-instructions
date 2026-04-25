@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Permission Notification"
+  short_description: "Plan mobile permissions and notification UX"
+  default_prompt: "Use $mobile-permission-notification to plan permission prompts, denial paths, settings recovery, and notification destinations."
+

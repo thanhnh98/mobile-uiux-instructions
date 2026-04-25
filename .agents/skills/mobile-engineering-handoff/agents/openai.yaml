@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Engineering Handoff"
+  short_description: "Turn mobile UX decisions into code structure"
+  default_prompt: "Use $mobile-engineering-handoff to convert these mobile UX decisions into component boundaries, state ownership, and implementation notes."
+

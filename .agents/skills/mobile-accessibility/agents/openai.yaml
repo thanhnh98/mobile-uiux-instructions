@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Accessibility"
+  short_description: "Review accessible mobile interaction patterns"
+  default_prompt: "Use $mobile-accessibility to review this mobile UI for accessibility risks and required fixes."
+

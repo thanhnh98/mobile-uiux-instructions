@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Navigation Stack"
+  short_description: "Define native mobile navigation behavior"
+  default_prompt: "Use $mobile-navigation-stack to review this mobile flow's stack behavior, deep links, notification entry, and exits."
+

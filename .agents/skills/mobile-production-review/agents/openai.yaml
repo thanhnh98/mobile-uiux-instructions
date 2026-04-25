@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Production Review"
+  short_description: "Review mobile UI readiness before release"
+  default_prompt: "Use $mobile-production-review to review this mobile feature for production readiness across UX, states, navigation, accessibility, and code structure."
+

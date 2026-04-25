@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Layout Structure"
+  short_description: "Design robust mobile layout composition"
+  default_prompt: "Use $mobile-layout-structure to propose a resilient mobile layout with scrolling, sticky regions, keyboard behavior, and small-screen survival."
+

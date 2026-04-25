@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile State Model"
+  short_description: "Define complete mobile UI state systems"
+  default_prompt: "Use $mobile-state-model to define this mobile feature's UI states, actions, recovery paths, and state ownership."
+

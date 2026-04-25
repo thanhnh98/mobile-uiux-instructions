@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Performance UX"
+  short_description: "Improve mobile loading and interaction speed"
+  default_prompt: "Use $mobile-performance-ux to improve perceived performance, loading states, list behavior, media loading, and responsiveness."
+

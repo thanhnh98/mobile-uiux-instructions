@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Screen UI/UX"
+  short_description: "Design or review one production mobile screen"
+  default_prompt: "Use $mobile-screen-uiux to design or review this single mobile screen with hierarchy, states, accessibility, and implementation handoff."
+

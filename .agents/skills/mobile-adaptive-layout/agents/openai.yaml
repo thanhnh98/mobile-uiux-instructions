@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Adaptive Layout"
+  short_description: "Plan resilient layouts across mobile devices"
+  default_prompt: "Use $mobile-adaptive-layout to adapt this mobile screen for phones, tablets, landscape, keyboard, and safe areas."
+

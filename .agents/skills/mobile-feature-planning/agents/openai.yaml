@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mobile Feature Planning"
+  short_description: "Plan production-ready mobile feature flows"
+  default_prompt: "Use $mobile-feature-planning to plan this mobile feature with flows, states, navigation, permissions, and component structure."
+
