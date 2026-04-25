@@ -24,6 +24,9 @@ description: Analyze or propose mobile layout composition for resilient scrollin
 - Adaptation rules.
 - Layout risks.
 
+## References
+- Read `references/layout-structure-reference.md` when a task needs a screen structure template, fixed-area rules, keyboard behavior, safe-area guidance, or adaptive layout notes.
+
 ## Anti-patterns to avoid
 - Nested scroll areas without a strong reason.
 - Sticky headers or footers that consume too much vertical space.

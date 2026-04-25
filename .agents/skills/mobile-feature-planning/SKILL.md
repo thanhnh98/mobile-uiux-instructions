@@ -24,6 +24,9 @@ description: Plan production-ready mobile features before implementation, includ
 - Permission and notification considerations.
 - Proposed file and component structure.
 
+## References
+- Read `references/feature-planning-reference.md` when a task needs a planning prompt, feature spec template, state matrix, or navigation spec.
+
 ## Anti-patterns to avoid
 - Planning only the happy path.
 - Treating permission prompts as implementation details.

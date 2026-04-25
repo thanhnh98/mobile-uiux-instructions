@@ -22,6 +22,9 @@ description: Review mobile features and screens for production readiness across 
 - Implementation risks.
 - Release-readiness checklist.
 
+## References
+- Read `references/production-review-reference.md` when a task needs a production review checklist, review prompt, accessibility checklist, platform notes, or severity framing.
+
 ## Anti-patterns to avoid
 - Reviewing only visual style.
 - Reporting preferences without user impact.

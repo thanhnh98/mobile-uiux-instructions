@@ -22,6 +22,9 @@ description: Make mobile screens work across small phones, large phones, tablets
 - Content priority for constrained space.
 - Layout fallback behavior.
 
+## References
+- Read `references/adaptive-layout-reference.md` when a task needs platform notes for safe areas, keyboard behavior, orientation, tablets, foldables, localization, or accessibility settings.
+
 ## Anti-patterns to avoid
 - Assuming one phone size.
 - Fixed grids that overflow under localization or text scaling.

@@ -22,6 +22,9 @@ description: Define complete UI state systems for mobile screens and features, i
 - Retry or recovery path.
 - Ownership of state between UI and business logic.
 
+## References
+- Read `references/state-model-reference.md` when a task needs a complete state matrix template or guidance for visible UI, actions, side effects, and recovery paths.
+
 ## Anti-patterns to avoid
 - Loading spinners without timeout, skeleton, or retry behavior.
 - Empty states that do not tell users what action is possible.

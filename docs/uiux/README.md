@@ -4,6 +4,8 @@ This directory contains reusable templates and checklists for planning, building
 
 `AGENTS.md` sets repository-wide behavior: mobile-first reasoning, complete state coverage, native platform behavior, accessibility, and implementation-ready structure.
 
+Runtime references are mirrored inside `.agents/skills/<skill-name>/references/` so installing a single skill through skills.sh includes the supporting material it needs.
+
 ## Skills
 - `mobile-feature-planning`: plan a full feature flow before coding.
 - `mobile-screen-uiux`: design or review one screen.

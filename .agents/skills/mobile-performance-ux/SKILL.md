@@ -25,6 +25,9 @@ description: Improve perceived and actual mobile UX performance across loading, 
 - Responsiveness and animation notes.
 - Measurement or test recommendations.
 
+## References
+- Read `references/performance-ux-reference.md` when a task needs a checklist for loading, lists, images, caching, refresh, animation, or release measurement.
+
 ## Anti-patterns to avoid
 - Full-screen spinners when cached or partial content can be shown.
 - Rendering large lists without virtualization or stable item keys.

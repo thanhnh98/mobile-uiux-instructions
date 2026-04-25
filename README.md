@@ -2,7 +2,7 @@
 
 A portable skill set for planning, building, and reviewing production-grade mobile UI/UX work.
 
-This repository is structured for installation through [skills.sh](https://skills.sh/). It provides focused mobile UX skills under `.agents/skills` and reusable planning/review artifacts under `docs/uiux`.
+This repo provides focused mobile UX skills under `.agents/skills`, with runtime references bundled inside each skill folder.
 
 ## What this pack covers
 
@@ -42,6 +42,7 @@ This repository is structured for installation through [skills.sh](https://skill
 Each skill folder contains:
 
 - `SKILL.md`: required workflow and trigger instructions.
+- `references/`: supporting templates, checklists, and notes loaded on demand.
 - `agents/openai.yaml`: UI metadata for skill listings and default prompts.
 
 ## Skills
@@ -62,10 +63,16 @@ Each skill folder contains:
 
 ## Usage
 
-Install the skill set with the skills CLI:
+Install all skills in this repository:
 
 ```bash
-npx skills add thanhnh98/mobile-uiux-instructions
+npx skills add thanhnh98/mobile-uiux-instructions --skill '*'
+```
+
+Install one skill only:
+
+```bash
+npx skills add thanhnh98/mobile-uiux-instructions --skill mobile-feature-planning
 ```
 
 After installation, invoke a skill explicitly with `$skill-name`, or let a compatible agent select the relevant skill from the task context.
@@ -86,7 +93,7 @@ Use $mobile-production-review to review this mobile feature before release.
 
 ## Supporting docs
 
-The `docs/uiux` directory contains reusable artifacts for teams:
+Each skill includes its own `references/` directory so supporting material is installed with that skill. The `docs/uiux` directory keeps the same artifacts in a central place for browsing the repository:
 
 - Planning prompts and feature spec templates.
 - Build prompt and screen spec templates.
@@ -95,14 +102,3 @@ The `docs/uiux` directory contains reusable artifacts for teams:
 - Mobile platform behavior notes.
 
 Start with [docs/uiux/README.md](docs/uiux/README.md) for the documentation workflow.
-
-## Publish checklist
-
-Before publishing or updating this repository on skills.sh:
-
-- Confirm every skill has a valid `.agents/skills/<name>/SKILL.md`.
-- Keep each `SKILL.md` concise and task-facing.
-- Keep user/team documentation outside individual skill folders.
-- Confirm each skill has `agents/openai.yaml` metadata.
-- Avoid generated build artifacts, dependency folders, or private project files.
-- Run `git status --short` and review all changed files before publishing.

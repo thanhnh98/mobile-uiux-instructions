@@ -27,6 +27,9 @@ description: Create or review a single mobile screen with production hierarchy, 
 - Accessibility notes.
 - Component split suggestion.
 
+## References
+- Read `references/screen-uiux-reference.md` when a task needs a screen spec template, state matrix, accessibility checklist, or adaptive behavior notes.
+
 ## Anti-patterns to avoid
 - Equal visual weight for every item.
 - Multiple competing primary CTAs.

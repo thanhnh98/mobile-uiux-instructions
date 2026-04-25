@@ -23,6 +23,9 @@ description: Translate mobile UX and UI decisions into maintainable code structu
 - Event handling notes.
 - Implementation warnings.
 
+## References
+- Read `references/engineering-handoff-reference.md` when converting a plan or screen spec into files, components, state ownership, implementation rules, or test focus.
+
 ## Anti-patterns to avoid
 - One screen file containing layout, fetching, validation, analytics, and navigation.
 - Reusable components that know feature-specific business rules.

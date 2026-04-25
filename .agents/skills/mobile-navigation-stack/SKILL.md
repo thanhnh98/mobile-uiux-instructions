@@ -24,6 +24,9 @@ description: Design and review mobile navigation, stack behavior, deep links, no
 - Stack risks.
 - Platform notes.
 
+## References
+- Read `references/navigation-stack-reference.md` when a task needs a navigation spec template, deep link handling, notification entry behavior, restore behavior, or platform-specific back behavior.
+
 ## Anti-patterns to avoid
 - Using modals for long multi-step flows without clear dismissal rules.
 - Breaking native back gestures.

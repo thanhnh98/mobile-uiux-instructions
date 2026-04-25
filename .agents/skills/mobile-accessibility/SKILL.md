@@ -23,6 +23,9 @@ description: Ensure mobile UI is accessible, operable, understandable, and resil
 - Adaptive text considerations.
 - Remediation notes.
 
+## References
+- Read `references/accessibility-reference.md` when a task needs a checklist for labels, focus, contrast, text scaling, screen reader behavior, motion, gestures, or announcements.
+
 ## Anti-patterns to avoid
 - Icon-only actions without accessible names.
 - Custom gestures with no button or menu alternative.

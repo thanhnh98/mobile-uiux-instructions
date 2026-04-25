@@ -23,6 +23,9 @@ description: Plan and review permission prompts and notification UX as part of p
 - UX copy intent notes.
 - Edge cases.
 
+## References
+- Read `references/permission-notification-reference.md` when a task needs permission states, ask timing, settings recovery, notification destination, dedupe, or stale notification handling.
+
 ## Anti-patterns to avoid
 - Asking for permission before the user understands the value.
 - Treating denial as an error state only.
